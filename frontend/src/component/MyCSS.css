@@ -1,0 +1,54 @@
+
+* {
+  font-family: 'Montserrat', sans-serif;
+ 
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+.navbar-nav li .nav-link {
+  font-size: 1em;
+  color: #333;
+  font-weight: normal;
+  transition: color 0.3s ease, font-size 0.3s ease, background-color 0.3s ease;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.navbar-nav li .nav-link:hover {
+  font-size: 1.25em;
+  color: #1e9ae0;
+  font-weight: normal;
+  background-color: #eaf6fb;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 25px rgba(20, 82, 163, 0.3);
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
+}
+
+.flight-search-form {
+  background-color: rgba(79, 79, 79, 0.338);
+  padding: 20px;
+  border-radius: none;
+  font-weight: bold;
+  font-family: monospace;
+
+}
+.navbar-logo {
+  height: 30px; /* Set the desired height for the image */
+  width: auto; /* Set width to auto or a specific value */
+  /* Add any other necessary styling for the image */
+}
